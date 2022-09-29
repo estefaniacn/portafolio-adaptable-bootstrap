@@ -30,28 +30,28 @@ h1 {
   font-family: 'Rubik Dirt', cursive;
 }
 
-.section-light {
+.seccion-clara {
   color: black;
   background-color: white;
 }
 
-.section-dark {
+.seccion-oscura {
   color: white;
   background-color: #1b1b32;
 }
 
-.section-title {
+.seccion-titulo {
   font-size: 2rem;
   padding: 15px 0;
   font-family: 'Rubik Dirt', cursive;
 }
 
-.section-description {
+.seccion-descripcion {
   font-size: 1.2rem;
   color: #584e4e;
 }
 
-.section-text {
+.seccion-texto {
   font-size: 1.2rem;
 }
 
@@ -60,11 +60,11 @@ h1 {
   margin: 20px;
 }
 
-.white-text {
+.texto-blanco {
   color: white;
 }
 
-.black-text {
+.texto-negro {
   color: black;
 }
 
@@ -78,7 +78,7 @@ h1 {
   text-align: center;
 }
 
-.hero-main {
+.hero-principal {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -86,12 +86,12 @@ h1 {
   padding: 3rem;
 }
 
-.hero-main h2 {
+.hero-principal h2 {
   font-size: 1.5rem;
   color: #615151;
 }
 
-.hero-developer-picture {
+.hero-imagen-desarrollador {
   width: 200px;
   height: 200px;
   border-radius: 100%;
@@ -100,30 +100,30 @@ h1 {
 
 /* Sobre mi */
 
-.about-me {
+.sobre-mi {
   height: 500px;
   color: white;
   padding: 10px;
 }
 
-.about-me .container {
+.sobre-mi .contenedor {
   max-width: 600px;
   text-align: center;
 }
 
 /* Experiencia */
 
-.experience {
+.experiencia {
   background-color: white;
   padding-bottom: 1rem;
   padding: 40px;
 }
 
-.experience .container {
+.experiencia .contenedor {
   border-radius: 16px;
 }
 
-.experience .column {
+.experiencia .column {
   padding: 20px;
   border: 2px solid #8080804d;
   display: flex;
@@ -133,12 +133,12 @@ h1 {
   transition: all 0.2s ease-in;
 }
 
-.experience .column:hover {
+.experiencia .column:hover {
   color: white;
   background-color: #1b1b32;
 }
 
-.experience i {
+.experiencia i {
   font-size: 2.5rem;
   color: #7ade30;
   background-color: #0a0a23;
@@ -146,13 +146,13 @@ h1 {
   border-radius: 50%;
 }
 
-.experience-title {
+.experiencia-titulo {
   font-size: 25px;
   font-weight: bold;
   margin: 10px 0;
 }
 
-.badges-container {
+.badges-contenedor {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -165,12 +165,12 @@ h1 {
 
 /* Proyectos recientes */
 
-.recent-work {
+.proyectos-recientes {
   flex-direction: column;
   padding: 40px;
 }
 
-.recent-work img {
+.proyectos-recientes img {
   height: 100%;
   width: 100%;
   padding: 10px;
@@ -179,7 +179,7 @@ h1 {
   transition: all 0.2s ease;
 }
 
-.projects-container {
+.proyectos-contenedor {
   padding-top: 60px;
   margin-bottom: 40px;
 }
@@ -200,7 +200,7 @@ h1 {
   margin-bottom: 0;
 }
 
-.overlay .icons-container {
+.overlay .iconos-contenedor {
   display: flex;
 }
 
@@ -210,44 +210,44 @@ h1 {
   margin: 10px;
 }
 
-.project {
+.proyecto {
   position: relative;
 }
 
-.project:hover img {
+.proyecto:hover img {
   opacity: 0.2;
 }
 
-.project:hover .overlay {
+.proyecto:hover .overlay {
   opacity: 1;
 }
 
 /* Articulos */
 
-.articles {
+.articulos {
   min-height: 500px;
   justify-content: flex-start;
   padding: 30px;
 }
 
-.articles .card {
+.articulos .card {
   width: 80%;
   max-width: 600px;
   margin: 20px;
 }
 
-.articles .card-header {
+.articulos .card-header {
   font-weight: bold;
 }
 
 /* Testimonios */
 
-.testimonials {
+.testimonios {
   padding: 40px;
   padding-bottom: 80px;
 }
 
-.testimonials .carousel {
+.testimonios .carousel {
   max-width: 800px;
 }
 
@@ -264,11 +264,7 @@ h1 {
   justify-content: center;
 }
 
-.testimonial-heading {
-  font-size: 2rem;
-}
-
-.testimonial-image {
+.testimonio-imagen {
   height: 150px;
   width: 150px;
   border-radius: 50%;
@@ -276,40 +272,40 @@ h1 {
   margin-bottom: 20px;
 }
 
-.testimonial-text {
+.testimonio-texto {
   max-width: 70%;
   font-size: 20px;
   font-family: 'Share Tech Mono', monospace;
   text-align: center;
 }
 
-.testimonial-footer {
+.testimonio-footer {
   font-weight: bold;
   text-align: center;
 }
 
-.testimonial-footer p {
+.testimonio-footer p {
   margin-bottom: 0;
 }
 
-.testimonial-footer .client {
+.testimonio-footer .cliente {
   font-size: 1.2rem;
 }
 
-.testimonial-footer .position {
+.testimonio-footer .cargo {
   font-size: 0.9rem;
   color: #656060;
 }
 
 /* Contacto */
 
-.contact-me .container {
+.contacto .container {
   max-width: 1100px;
   min-height: 200px;
   padding: 20px;
 }
 
-.contact-me .box {
+.contacto .rectangulo {
   margin-top: -5rem;
   background-color: rgb(13, 110, 253);
   border-radius: 10px;
@@ -318,18 +314,18 @@ h1 {
   box-shadow: 0px 1px 4px 1px white;
 }
 
-.contact-me .row {
+.contacto .row {
   width: 100%;
   display: flex;
   align-items: center;
 }
 
-.contact-me .description {
+.contacto .descripcion {
   color: white;
   font-size: 1.2rem;
 }
 
-.contact-me button {
+.contacto button {
   color: white;
   font-weight: bold;
   background-color: transparent;
@@ -340,18 +336,18 @@ h1 {
   transition: all 0.2s ease-in-out;
 }
 
-.contact-me button:hover {
+.contacto button:hover {
   background-color: white;
   color: black;
 }
 
-.contact-me button i {
+.contacto button i {
   color: white;
   font-size: 1.3rem;
   transition: all 0.2s ease-in-out;
 }
 
-.contact-me button:hover i {
+.contacto button:hover i {
   color: black;
 }
 
@@ -365,20 +361,28 @@ footer {
   justify-content: center;
 }
 
-.footer-icon {
+.footer-icono {
   height: 80px;
   width: 80px;
   margin: 10px;
 }
 
-.social-media-icons {
+.footer-texto {
+  font-size: 1.5rem;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.iconos-redes-sociales {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
-.social-media-icons a {
+.iconos-redes-sociales a {
   width: 50px;
   height: 50px;
   display: flex;
@@ -391,30 +395,22 @@ footer {
   transition: all 0.2s ease-in;
 }
 
-.social-media-icons i {
+.iconos-redes-sociales i {
   color: white;
   font-size: 1.5rem;
   transition: all 0.2s ease-in;
 }
 
-.social-media-icons a:hover {
+.iconos-redes-sociales a:hover {
   background-color: white;
   border: 2px solid rgb(13, 110, 253);
 }
 
-.social-media-icons a:hover i {
+.iconos-redes-sociales a:hover i {
   color: black;
 }
 
-.footer-text {
-  font-size: 1.5rem;
-  font-family: 'Quicksand', sans-serif;
-  text-align: center;
-  padding: 20px;
-  margin-bottom: 30px;
-}
-
-.copyright {
+.derechos-de-autor {
   font-size: 15px;
   color: #aeaeae;
   padding: 20px;
@@ -445,18 +441,18 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
-  .testimonial-image {
+  .testimonio-imagen {
     height: 120px;
     width: 120px;
   }
 
-  .testimonial-text {
+  .testimonio-texto {
     font-size: 18px;
   }
 }
 
 @media screen and (min-width: 700px) {
-  .hero-footer-img {
+  .hero-inferior-imagen {
     max-width: 600px;
   }
 }
