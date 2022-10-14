@@ -33,7 +33,7 @@
           <a class="navbar-brand" href="#">
             <img src="imagenes/icono.png" width="50" alt="Logo de la página web">
           </a>
-          <ul class="navbar-nav">
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
             </li>
@@ -52,8 +52,8 @@
     </nav>
 
     <!-- Seccion Hero / Jumbotron -->
-    <section class="hero">
-      <div class="hero-principal">
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
         <img class="hero-imagen-desarrollador" src="imagenes/imagenes-desarrolladores/desarrollador1.svg" alt="Una foto de Jane Doe.">
         <h1>Hola, soy Jane Doe</h1>
         <h2>Desarrollo sitios web y escribo artículos sobre programación.</h2>
@@ -114,7 +114,7 @@
     </section>
 
     <!-- Proyectos recientes -->
-    <section id="proyectos" class="proyectos-recientes section-light">
+    <section id="proyectos" class="proyectos-recientes section-light flex-column">
       <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
       <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
       <!-- Galeria de proyectos -->
@@ -233,7 +233,7 @@
     </section>
 
     <!-- Articulos -->
-    <section class="articulos">
+    <section class="articulos justify-content-start">
       <h2 class="seccion-titulo texto-negro">Artículos</h2>
       <div class="card">
         <div class="card-header">
@@ -285,31 +285,31 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="container">
-              <img class="testimonio-imagen" src="imagenes/cliente1.svg" alt="Una foto de Gino.">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente1.svg" alt="Una foto de Gino.">
               <p class="testimonio-texto">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet semper sapien, et commodo turpis. Vivamus vel suscipit mi. Suspendisse sed facilisis nibh."</p>
               <div class="testimonio-footer">
                 <p class="cliente">Gino</p>
-                <p class="cargo">Gerente de proyectos en WebDev</p>
+                <p class="cargo">Gerente de proyectos en DesarrolloWeb</p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <div class="container">
-              <img class="testimonio-imagen" src="imagenes/cliente2.svg" alt="Una foto de Nora.">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente2.svg" alt="Una foto de Nora.">
               <p class="testimonio-texto">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet semper sapien, et commodo turpis. Vivamus vel suscipit mi. Suspendisse sed facilisis nibh."</p>
               <div class="testimonio-footer">
                 <p class="cliente">Nora</p>
-                <p class="cargo">Presidente de BuildMyWebsite</p>
+                <p class="cargo">Presidente de DiseñaMiPáginaWeb</p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <div class="container">
-              <img class="testimonio-imagen" src="imagenes/cliente3.svg" alt="Una foto de Leonardo.">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente3.svg" alt="Una foto de Leonardo.">
               <p class="testimonio-texto">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet semper sapien, et commodo turpis. Vivamus vel suscipit mi. Suspendisse sed facilisis nibh."</p>
               <div class="testimonio-footer">
                 <p class="cliente">Leonardo</p>
-                <p class="cargo">Director de LearnCode.com</p>
+                <p class="cargo">Director de AprendeAProgramar</p>
               </div>
             </div>
           </div>
@@ -328,7 +328,7 @@
     <!-- Contacto -->
     <section id="contacto" class="contacto seccion-oscura">
       <div class="container">
-        <div class="container text-center rectangulo">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
           <div class="row">
             <div class="col-sm-12 col-md-4 seccion-titulo">
               ¡Hablemos!
@@ -350,10 +350,10 @@
     </section>
 
     <!-- Pie de pagina (Footer) -->
-    <footer class="seccion-oscura">
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
       <img class="footer-icono" src="imagenes/icono-blanco.svg" alt="Logo de la página web.">
-      <p class="footer-texto">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
-      <div class="iconos-redes-sociales">
+      <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
         <a href="https://twitter.com/freecodecamp" target="_blank" rel="noopener noreferrer">
           <i class="bi bi-twitter"></i>
         </a>
@@ -366,7 +366,7 @@
         <a href="https://www.instagram.com/freecodecamp/" target="_blank" rel="noopener noreferrer">
           <i class="bi bi-instagram"></i>
         </a>
-        <a href="mailto:janedoe@myemail.com" target="_blank" rel="noopener noreferrer">
+        <a href="mailto:janedoe@micorreo.com" target="_blank" rel="noopener noreferrer">
           <i class="bi bi-envelope"></i>
         </a>
       </div>
