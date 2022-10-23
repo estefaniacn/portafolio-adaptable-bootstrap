@@ -1,18 +1,18 @@
 /* Barra de navegacion */
 
 .navbar {
-  padding: 2rem; 
+  padding: 2rem;
   background-color: #f5f6f7;
 }
 
 .navbar-collapse {
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between;  
 }
 
-/* Selectores CSS generales para todas las secciones */
+/* Estilos generales */
 
-section { 
+section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,14 +24,14 @@ h1 {
   font-family: 'Rubik Dirt', cursive;
 }
 
-.seccion-clara {
-  color: black;
-  background-color: white;
-}
-
 .seccion-oscura {
   color: white;
   background-color: #1b1b32;
+}
+
+.seccion-clara {
+  color: black;
+  background-color: white;
 }
 
 .seccion-titulo {
@@ -54,15 +54,15 @@ h1 {
   margin: 20px;
 }
 
-.texto-blanco {
-  color: white;
-}
-
 .texto-negro {
   color: black;
 }
 
-/* Seccion Hero (Jumbotron) */
+.texto-blanco {
+  color: white;
+}
+
+/* Seccion Hero */
 
 .hero {
   background-color: #f5f6f7;
@@ -74,23 +74,21 @@ h1 {
   padding: 3rem;
 }
 
-.hero-principal h2 {
-  font-size: 1.5rem;
-  color: #615151;
-}
-
 .hero-imagen-desarrollador {
   width: 200px;
   height: 200px;
-  border-radius: 100%;
   margin: 20px;
+}
+
+.hero-principal h2 {
+  font-size: 1.5rem;
+  color: #615151;
 }
 
 /* Sobre mi */
 
 .sobre-mi {
   height: 500px;
-  color: white;
   padding: 10px;
 }
 
@@ -102,16 +100,10 @@ h1 {
 /* Experiencia */
 
 .experiencia {
-  background-color: white;
-  padding-bottom: 1rem;
-  padding: 40px;
+  padding: 40px 40px 60px 40px;
 }
 
-.experiencia .contenedor {
-  border-radius: 16px;
-}
-
-.experiencia .column {
+.experiencia .columna {
   padding: 20px;
   border: 2px solid #8080804d;
   display: flex;
@@ -121,7 +113,7 @@ h1 {
   transition: all 0.2s ease-in;
 }
 
-.experiencia .column:hover {
+.experiencia .columna:hover {
   color: white;
   background-color: #1b1b32;
 }
@@ -141,17 +133,16 @@ h1 {
 }
 
 .badges-contenedor {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
 }
 
 .badge {
   margin: 5px;
 }
 
-/* Proyectos recientes */
+/* Proyectos */
 
 .proyectos-recientes {
   padding: 40px;
@@ -187,16 +178,6 @@ h1 {
   margin-bottom: 0;
 }
 
-.overlay .iconos-contenedor {
-  display: flex;
-}
-
-.overlay i {
-  color: black;
-  font-size: 60px;
-  margin: 10px;
-}
-
 .proyecto {
   position: relative;
 }
@@ -207,6 +188,16 @@ h1 {
 
 .proyecto:hover .overlay {
   opacity: 1;
+}
+
+.overlay .iconos-contenedor {
+  display: flex;
+}
+
+.overlay i {
+  color: black;
+  font-size: 60px;
+  margin: 10px;
 }
 
 /* Articulos */
@@ -229,8 +220,7 @@ h1 {
 /* Testimonios */
 
 .testimonios {
-  padding: 40px;
-  padding-bottom: 80px;
+  padding: 40px 40px 80px 40px;
 }
 
 .testimonios .carousel {
@@ -253,23 +243,22 @@ h1 {
 .testimonio-imagen {
   height: 150px;
   width: 150px;
-  margin: 10px;
-  margin-bottom: 20px;
+  margin: 10px 10px 20px 10px;
 }
 
 .testimonio-texto {
   max-width: 70%;
   font-size: 20px;
-  font-family: 'Share Tech Mono', monospace;
   text-align: center;
+  font-family: 'Share Tech Mono', monospace;
 }
 
-.testimonio-footer {
+.testimonio-info {
   font-weight: bold;
   text-align: center;
 }
 
-.testimonio-footer p {
+.testimonio-info p {
   margin-bottom: 0;
 }
 
@@ -277,7 +266,7 @@ h1 {
   font-size: 1.2rem;
 }
 
-.testimonio-footer .cargo {
+.testimonio-info .cargo {
   font-size: 0.9rem;
   color: #656060;
 }
@@ -334,13 +323,13 @@ h1 {
   color: black;
 }
 
-/* Pie de pagina (Footer) */
+/* Pie de pagina (footer) */
 
 footer {
   min-height: 500px;
 }
 
-.footer-icono {
+.footer-logo {
   height: 80px;
   width: 80px;
   margin: 10px;
@@ -348,9 +337,9 @@ footer {
 
 .footer-texto {
   font-size: 1.5rem;
-  font-family: 'Quicksand', sans-serif;
   padding: 20px;
   margin-bottom: 30px;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .iconos-redes-sociales a {
@@ -387,21 +376,15 @@ footer {
   padding: 20px;
 }
 
-/* Adaptable (Responsive) */
+/* Adaptable (Responsivo) */
 
 @media screen and (max-width: 400px) {
   .overlay p {
     font-size: 18px;
   }
-  
+
   .overlay i {
     font-size: 40px;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .carousel-item {
-    min-height: 700px;
   }
 }
 
